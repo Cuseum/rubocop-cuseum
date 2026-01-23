@@ -7,7 +7,7 @@ Custom RuboCop cops for enforcing Cuseum service class conventions.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rubocop-cuseum', path: 'vendor/rubocop-cuseum'
+gem 'rubocop-cuseum', github: 'cuseum/rubocop-cuseum'
 ```
 
 And then execute:
