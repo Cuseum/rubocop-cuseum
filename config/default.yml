@@ -1,0 +1,17 @@
+Cuseum/SinglePublicMethodService:
+  Description: Service classes should have at most one public method.
+  Enabled: true
+  Include:
+    - app/services/**/*.rb
+
+Cuseum/InheritFromBaseService:
+  Description: Service classes must inherit from BaseService directly or indirectly.
+  Enabled: true
+  Include:
+    - app/services/**/*.rb
+
+Cuseum/PublicMethodNamedCall:
+  Description: Public methods in service classes should be named "call".
+  Enabled: true
+  Include:
+    - app/services/**/*.rb
