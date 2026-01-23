@@ -26,5 +26,6 @@ jobs:
     - name: Run tests
       run: bundle exec rake spec
 
-    - name: Run RuboCop
-      run: bundle exec rake rubocop
+    # Reenable that once we have rubocop configured here
+    # - name: Run RuboCop
+    #   run: bundle exec rake rubocop
