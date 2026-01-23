@@ -22,12 +22,12 @@ Gem::Specification.new do |spec|
     "config/default.yml",
     "lib/**/*.rb"
   ]
-  
+
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 3.0.0", "<= 3.3.5"
 
   spec.add_dependency "rubocop", ">= 1.0"
 
