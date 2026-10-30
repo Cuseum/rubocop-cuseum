@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-cuseum"
-  spec.version = "0.1.0"
+  spec.version = "0.1.2"
   spec.authors = ["Cuseum Team"]
   spec.email = ["dev@cuseum.com"]
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 3.0.0", "<= 3.4.8"
+  spec.required_ruby_version = ">= 3.3.0"
 
   spec.add_dependency "rubocop", ">= 1.0"
 
